@@ -2,7 +2,7 @@ const { Server: WebSocket } = require("ws");
 const crypto = require("crypto");
 
 // Start listening websocket on port
-const port = 80;
+const port = 3333;
 const wss = new WebSocket({ port: port });
 
 wss.on('listening', () => {
